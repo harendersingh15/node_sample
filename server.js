@@ -23,6 +23,7 @@ app.use(morgan('dev'));
 //api calling
 var User = require('./server/User/login_api');
 
+//sample test
 //console.log("Sum of two number is " + User.UserLogin(2,2));
 //default url for the express api
 app.get('/', function(req, res){
